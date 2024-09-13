@@ -48,7 +48,7 @@ class ConfigHomeLab:
         self.disparities_to_use: str = "./outputfiles/outputs/disparities.npy"
         # Path of the disparities file to be used for evaluations.
 
-        self.test_dir_for_inference_time = "../../10_test_images/"
+        self.test_dir_for_inference_time = "./10_test_images/"
         # Path of the directory used to measure the avg inference time with CPU on 10 images.
 
         ########################## EXPERIMENTS PARAMETERS ##########################
